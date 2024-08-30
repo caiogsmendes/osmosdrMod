@@ -401,7 +401,7 @@ public:
   virtual void set_time_unknown_pps(const ::osmosdr::time_spec_t &time_spec) { }
 
   //caio Mod
-  bool check_overflow_flag(void){ }
+  virtual bool check_overflow_flag(void){}
 };
 
 #endif // OSMOSDR_SOURCE_IFACE_H

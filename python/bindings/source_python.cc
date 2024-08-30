@@ -323,10 +323,6 @@ void bind_source(py::module& m)
             py::arg("time_spec"),
             D(source,set_time_unknown_pps)
         )
-
-
-        .def("check_overflow_flag",&source::check_overflow_flag
-        )
         
         
         ;
